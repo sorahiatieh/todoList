@@ -19,7 +19,7 @@ class TodoList {
     }
 
     render () {
-        console.log('تودولیست شروع به کار کرد');
+    
         this.todosContainer.innerHTML = ''
 
         this.addBtn.addEventListener('click', () => {
@@ -36,7 +36,7 @@ class TodoList {
     }
 
     addTodosToDom () {
-        console.log("تودوها به دام اضافه شدن");
+        console.log("Todos are added to the trap");
 
         this.todosContainer.innerHTML = ''
 
@@ -97,7 +97,7 @@ class TodoList {
     }
 
     clearTodos () {
-        console.log('تودوها پاک شدن');
+        console.log('The todos were cleared');
 
         this.todos = []
         this.render()
